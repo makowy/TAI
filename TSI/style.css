@@ -1,16 +1,25 @@
 body {
-    
+    margin: 0;
 }
 
-conteiner {
+.conteiner {
     position: absolute;
     background-color: darkslateblue;
-    margin: 0 auto;
+    margin: 0 10vw;
+    width: 80vw;
+    height: 20vh;
     border: 2px solid #222;
 }
 
-conteinerElements {
-    position: absolute;
-    left: 0;
-    top: 0;
+.conteinerElements {
+    position: relative;
+    float: left;
+    width: 33.3%;
+}
+
+.conteinerElementsFactor {
+    background-color: red;
+    height: 100%;
+    width: 100%;
+    border: 1px solid
 }
