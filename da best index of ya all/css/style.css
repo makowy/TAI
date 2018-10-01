@@ -1,7 +1,7 @@
 h2{
 text-align:center;
 }
-div{
+.tables{
 background-color:green;
 color:white;
 border:20px solid #000000;
@@ -11,8 +11,7 @@ padding:;
 height:150px;
 width:75%;
 margin: 0 auto;
-selector{collumn-rule-color:blue}
-selector{collumn-rule-width:20px}
-selector{collumn-rule-20px auto}
-selector{collumn-count:2}
+}
+.tablez{
+display:flex;
 }
