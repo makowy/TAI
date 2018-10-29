@@ -1,20 +1,23 @@
 h2{
-text-align:center;
+text-align: center;
 }
 .tables{
-background-color:green;
-color:white;
-border:20px solid #000000;
-margin:;
-margin-top:;
-padding:;
-height:150px;
-width:75%;
+background-color: #4286f4;
+color: white;
+border: 20px solid #000000;
+height: 150px;
+width: 75%;
 margin: 0 auto;
 }
 .tablez{
-display:flex;
+display: flex;
+    text-align: center
+       
+}
+td{
+    transition: all 1s ease-in-out;
 }
 td:hover{
-background-color: pink;
+background-color: greenyellow;
+    border-color: greenyellow; 
 }

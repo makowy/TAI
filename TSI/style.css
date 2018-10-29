@@ -1,25 +1,63 @@
 body {
     margin: 0;
+    font-weight: 700;
 }
 
 .conteiner {
-    position: absolute;
-    background-color: darkslateblue;
-    margin: 0 10vw;
+    position: relative;
+    background-color: #757575;
+    margin: 10vw;
     width: 80vw;
-    height: 20vh;
+    height: 30vh;
     border: 2px solid #222;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
 }
 
 .conteinerElements {
     position: relative;
     float: left;
-    width: 33.3%;
+    width: 30%;
+    -webkit-margin-before: 10%;
+    -webkit-margin-after: 10%;
+    -webkit-margin-start: 10px;
+    -webkit-margin-end: 0;
 }
 
 .conteinerElementsFactor {
-    background-color: red;
+    background-color: #e2d388;
     height: 100%;
     width: 100%;
-    border: 1px solid
+    border: 1px solid black;
+    border-radius: 1em;
+    text-align: center;
+    padding: .2em 0;
+    margin: 5px 0;
+    transition: .9s all ease-in-out;
+    -webkit-box-shadow: 10px 5px 2px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+}
+
+.conteinerElementsFactor > .text {
+    display: none;
+    position: absolute;
+    width: 100px;
+    left: 33.3vw;
+    top: 20vh;
+    transition: color 0.9s ease-in-out;
+}
+.conteinerElementsFactor:hover .text {
+    display: block;
+    color: red;
+    
+}
+
+
+.conteinerElementsFactor:hover {
+    background-color: black;
+    color: white;
+    border-color: white;
 }
